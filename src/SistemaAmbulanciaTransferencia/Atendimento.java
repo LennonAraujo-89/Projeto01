@@ -5,14 +5,7 @@ public class Atendimento {
 	//Solicitantes
 	
 	String carater = "Simples" ;
-	
-	//Identificação do paciente
-	
-	String nomeDoPaciente = "Paciente";
-	int idadeDoPaciente = 0;
-	String sexo = "";
-	
-	
+
 	//Referente ao Caráter da Ocorrencia
 	
 	String ocorrencia = "Emergencia Operar com segurança e cautel";
