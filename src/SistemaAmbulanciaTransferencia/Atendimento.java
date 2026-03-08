@@ -28,25 +28,4 @@ public class Atendimento {
 		
 		return String.format("Tipo de Ocorrencia: %s: %s", this.carater, this.ocorrencia);
 	}
-	
-	//Data
-	int dia, mes, ano;
-	
-	Data() {
-		this.dia = 05;
-		this.mes = 03;
-		this.ano = 2026;
-	}
-	
-	Data(int dia, int mes, int ano){
-		this.dia = dia;
-		this.mes = mes;
-		this.ano = ano;
-		
-	}
-	
-	String dataFormatada() {
-		return String.format("%d/%d/%d", this.dia, this.mes, this.ano);
-	}
-
 }
